@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main>
+        <div class="navegacion">
+            <span class="ver_usuario">Ver usuarios</span>
+            <span class="subir_usuario">Subir usuario</span>
+        </div>
+        <!-- tab_usuarios -->
+        <div class="tab_usuarios">
+            <h1>Usuarios</h1>
+            <div class="buscador">
+                <input type="text" name="buscador" id="buscador" placeholder="Buscar usuario...">
+                <select name="filtro" id="filtro">
+                    <option value="nombre">Nombre</option>
+                    <option value="email">Email</option>
+                    <option value="ciudad">Ciudad</option>
+                </select>   
+            </div>
+            <div class="usuarios">
+                
+            </div>
+        </div>
+        <div class="tab_subir_usuario ocultar">
+            <h1>Subir usuario</h1>
+            <form class="formulario" action="/" method="post">
+                <div>
+                    <label for="nameTxt">Nombre</label>
+                    <input type="text" name="nameTxt" id="nameTxt" required>
+                </div>
+                <div>
+                    <label for="userNameTxt">Nombre de usuario</label>
+                    <input type="text" name="userNameTxt" id="userNameTxt" required>
+                </div>
+                <div>
+                    <label for="emailTxt">Email</label>
+                    <input type="email" name="emailTxt" id="emailTxt" required>
+                </div>
+                <div>
+                    <label for="cityTxt">Ciudad</label>
+                    <input type="text" name="cityTxt" id="cityTxt" required>
+                </div>
+                <div>
+                    <label for="telTxt">Teléfono</label>
+                    <input type="tel" name="telTxt" id="telTxt" required>
+                </div>
+                <div>
+                    <label for="companyTxt">Empresa</label>
+                    <input type="text" name="companyTxt" id="companyTxt" required>
+                </div>
+                <button type="submit">Subir</button>
+            </form>
+        </div>
+
+    </main>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
