@@ -2,15 +2,15 @@
 
 ## Instalación
 
-Primero clonamos el repositorio en una carpeta con git clone
+Primero clonamos el repositorio en una carpeta con git clone:
 
->git clone 
+>git clone https://github.com/MaximoXv/ChallengeFORIT.git
 
-Luego abrimos la carpeta del proyecto con una terminal(git-bash o VSCode). Una vez la terminal esté en la carpta, corremos el codigo:
+Luego abrimos la carpeta del proyecto con una terminal(git-bash o VSCode). Una vez la terminal esté en la carpeta, corremos el código:
 
 >npm start
 
-Con esto el servidor ya deberia estar corriendo, ingresa desde cualquier navegador a "localhost:3000"
+Con esto el servidor ya debería estar corriendo, ingresa desde cualquier navegador a "localhost:3000"
 
 ## Archivo .json
 
